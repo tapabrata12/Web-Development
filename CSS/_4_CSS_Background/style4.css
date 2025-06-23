@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.repeat{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/_4_CSS_Background/img/img_tree.gif');
+}
+
+.repeat2{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/_4_CSS_Background/img/img_tree.gif');
+    background-repeat: no-repeat;
+}
+
+.repeat3{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/_4_CSS_Background/img/img_tree.gif');
+    background-repeat: repeat-x;
+}
+
+.repeat4{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/_4_CSS_Background/img/img_tree.gif');
+    background-repeat: repeat-y;
+}
+
+.repeat5{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/_4_CSS_Background/img/img_tree.gif');
+    background-repeat: space;
+}
+
+.repeat6{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/_4_CSS_Background/img/img_tree.gif');
+    background-repeat:round;
+}

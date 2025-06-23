@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.position{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/w3css.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.position2{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/w3css.gif');
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.position3{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/w3css.gif');
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.position4{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/w3css.gif');
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.position5{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/w3css.gif');
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.position6{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/w3css.gif');
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.position7{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/w3css.gif');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.position8{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/w3css.gif');
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+.position9{
+    width: 100%;
+    height: 50vh;
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/w3css.gif');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}

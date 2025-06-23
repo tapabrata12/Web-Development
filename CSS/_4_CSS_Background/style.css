@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.BA{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/_4_CSS_Background/img/Tree.avif');
+    background-attachment: fixed;
+}
+.BA2{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/_4_CSS_Background/img/Tree.avif');
+    background-attachment: scroll;
+}
+
+.BA3{
+    width: 100%;
+    height: 100vh;
+    background-image: url('/_4_CSS_Background/img/Tree.avif');
+    background-attachment: local;
+}

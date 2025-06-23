@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/_4_CSS_Background/img/paper.gif");
+  color: black;
+}
+
+.bg2 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/_4_CSS_Background/img/img_tree.gif"),
+    url("/_4_CSS_Background/img/paper.gif");
+  background-size: 100px 100px, cover;
+  color: black;
+}
+
+.bg3 {
+  width: 100%;
+  height: 100vh;
+  background-image: conic-gradient(blue, red, green);
+}
+
+.bg4 {
+  width: 100%;
+  height: 100vh;
+  background-image: conic-gradient(red, yellow, green, blue, black);
+}
+
+.bg5 {
+  width: 100%;
+  height: 100vh;
+  background-image: conic-gradient(red 45deg, yellow 90deg, green 210deg);
+}
+
+.bg6 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(red, yellow, blue);
+}
+
+.bg7 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to right, red, yellow, blue);
+}
+.bg8 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, red, yellow, blue, green);
+}
+
+.bg9 {
+  width: 100%;
+  height: 100vh;
+  background-image: radial-gradient(red, green, blue);
+}

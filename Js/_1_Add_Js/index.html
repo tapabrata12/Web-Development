@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Js</title>
+</head>
+<body>
+    <h1>Add JavaScript to HTML Inline</h1>
+    <button id="btn1" onclick="alert('Hello from Inline Js')">Click</button>
+    <h1>Add JavaScript to HTML Internal</h1>
+    <button id="btn2">Click</button>
+    <h1>Add JavaScript to HTML External</h1>
+    <button id="btn3">Click</button>
+
+
+   
+    <!-- In our upcomming lessions we will learn what is it syntax all about -->
+     <!-- Inline Js -->
+    <script>
+        document.getElementById("btn2").addEventListener("click", function() {
+            alert("Hello from Internal JS");
+            console.log("Hello from Internal JS");
+        });
+    </script>
+
+    <!-- External Js -->
+     <script src="/_1_Add_Js/script.js"></script>
+</body>
+</html>

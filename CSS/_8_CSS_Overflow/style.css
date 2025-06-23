@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pic{
+    width: 300px;
+    float: right;
+}

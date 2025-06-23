@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bg_size{
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/Tree.avif');
+    background-size: auto;
+   
+}
+
+.bg_size2{
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/Tree.avif');
+    background-size: 100px 100px;
+}
+
+.bg_size3{
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/Tree.avif');
+    background-size: contain;
+}
+
+.bg_size4{
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/Tree.avif');
+    background-size: cover;
+}
+
+.bg_size5{
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/Tree.avif');
+    background-size:50%;
+}
+
+.bg_size6{
+    border: 2px solid black;
+    background-image: url('/_4_CSS_Background/img/Tree.avif');
+    background-size:30px;
+}

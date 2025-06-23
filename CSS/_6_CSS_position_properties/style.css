@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  border: 1px solid black;
+  background-color: yellow;
+}
+.img3 {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.img1 {
+  position: relative;
+  top: 200px;
+  left: 100px;
+}
+
+.container2 {
+  position: relative;
+  height: 50vh;
+  background-color: gray;
+}
+.red {
+  position: absolute;
+  top: 50%;
+  background-color: red;
+  width: 300px;
+  height: 100px;
+}
+
+.blue {
+  position: absolute;
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+}
+
+.yellow {
+  position: absolute;
+  background-color: yellow;
+  width: 50px;
+  height: 100px;
+}
+
+.container3 {
+  border: 1px solid black;
+  height: 5000px;
+  
+}
+
+.img7 {
+  position: sticky;
+  top: 0; /* This is must to write */
+}
+
+.img8 {
+  position: fixed;
+}
+
+.container4 {
+  background-color: green;
+  border: 1px solid black;
+  height: 1000px;
+}
