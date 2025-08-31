@@ -12,26 +12,35 @@ arr.forEach(function(item){
     console.log(item * 2);
 });
 
-// map(): map shirf tabhi use karna hai jab apko ek naya array banana hai piccle array ke basis par.
+// map(): map shirf tabhi use karna hai jab apko ek naya array banana hai particular array ke basis par.
 //  map() dhektehii saath man mein ek blank array bana liya karo aur phir usmein item add karo.
 
-const newArr = arr.map(function(item) {
+const newArr = arr.map(function(item,idx) {
     return item + 2;
 });
 
+
 console.log(newArr); // Eaha par return karna anivariya hai nahito as default undefined return hoga.
+
+
 
 const newArr2 = arr.map(function(item) {});
 
 console.log(newArr2);
 
-const newArr3 = arr.map(function(item) {
+let newArr3 = arr.map(function(item) {
     if (item % 2 === 0) {
         return item * 2;
     } 
 });
 
 console.log(newArr3);
+
+// Agar ham map me two argument rakhenghe too ussme 2nd argument index return karta hai
+newArr3 = arr.map(function (item,idx) {
+    return idx;
+})
+console.log("Indexes are: ",newArr3);
 
 // Jab vhi apko aisa koi case dikhe jaaye jaha par ek array se naya array banega and wo naya array kuchh values ko rakhega tab map lagega.
 
