@@ -1,5 +1,5 @@
 let a = document.querySelector("h1");
-// Now listen go to browser console tab there you will find h1 now expand that and search for which key's default value is what I write in the h1 tag abd then if you will chamge those key's value then you will see the change in the h1 tag
+// Now listen go to browser console tab there you will find h1 now expand that and search for which key's default value is what I write in the h1 tag then if you will chamge those key's value then you will see the change in the h1 tag
 console.dir(a);
 
 // First keys is 
