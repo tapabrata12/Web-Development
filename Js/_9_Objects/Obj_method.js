@@ -22,7 +22,7 @@ let obj3 = Object.assign({}, obj); // Here we at first declared and empty object
 console.log(obj3);
 
 // If our are filled:
-let obj4 = Object.assign({ Prize: Infinity }, obj);
+let obj4 = Object.assign({ Prize: Infinity }, obj); // We can copy object with some additional property
 
 console.log(obj4);
 
