@@ -1,5 +1,5 @@
 // Browser pee koi bhi harkat karo to event raise hojata hai
-// event ka mat lab hai kuch hona screen pe: jaise click karna, scroll karna, resize karna, hover karna etc.
+// event ka matlab hai kuch hona screen pe: jaise click karna, scroll karna, resize karna, hover karna etc.
 // Kuch screen pe hoo to apko react karna ana chaiyee.
 // EventListner ka matlab hai appne koi action ka reaction diyaa Ex: Click kia to screen red ho gaya.
 
