@@ -27,6 +27,7 @@ form.addEventListener("submit", (e) => {
 
   // clear the input fields except submit button
   inp.forEach((element) => {
+    console.log(element);
     if (element.type !== "submit") {
       element.value = "";
     }
