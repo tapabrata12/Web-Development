@@ -1,7 +1,7 @@
 const progress = document.getElementById("progress");
 const percent = document.getElementById("percent");
 const startBtn = document.getElementById("inc");
-const decBtn = document.getElementById("dec");
+const stopBtn = document.getElementById("dec");
 const Dheading = document.querySelector("p");
 
 let value = 0; 
@@ -23,7 +23,7 @@ startBtn.addEventListener("click", () => {
       Dheading.textContent = "Dowloaded";
     }
 
-    decBtn.addEventListener("click", () => {
+    stopBtn.addEventListener("click", () => {
       Dheading.textContent = "Dowloading stopped";
       clearInterval(x);
     });

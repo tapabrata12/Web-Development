@@ -13,6 +13,7 @@ form.addEventListener('submit', (event)=>{
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     let Eans = emailRegex.test(email.value);
     // console.log(Eans);
+    // If Eans if false then !Eans will be true and the if block will be run
     if (!Eans) {
         result.style.display = 'none';
         e.style.display = 'initial';
@@ -24,6 +25,7 @@ form.addEventListener('submit', (event)=>{
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
     let Pans = passwordRegex.test(password.value);
     // console.log(Pans);
+    // If Pans if false then !Eans will be true and the if block will be run
     if (!Pans) {
         result.style.display = 'none';
         p.style.display = 'initial';
