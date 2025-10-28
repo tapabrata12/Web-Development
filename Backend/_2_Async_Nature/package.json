@@ -1,0 +1,11 @@
+{
+  "name": "async_nature",
+  "version": "1.0.0",
+  "description": "Node async nature discussion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tapabrata Chowdhury",
+  "license": "ISC"
+}
