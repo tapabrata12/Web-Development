@@ -1,0 +1,7 @@
+.btn{
+    width: fit-content;
+    height: fit-content;
+    padding: 8px 16px;
+    background-color: tomato;
+    color: white;
+}
