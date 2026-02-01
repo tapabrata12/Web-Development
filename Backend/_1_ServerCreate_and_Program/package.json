@@ -1,0 +1,15 @@
+{
+  "name": "introduction-to-server",
+  "version": "1.0.0",
+  "description": "This is the containing basic code to understand how a server is being created and it's architecture",
+  "license": "ISC",
+  "author": "Tapabrata Chowdhury",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
