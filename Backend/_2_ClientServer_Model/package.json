@@ -1,0 +1,15 @@
+{
+  "name": "clint-server-model-and-methods",
+  "version": "1.0.0",
+  "description": "This the discussion about the all types of requests and responces in client server model",
+  "license": "ISC",
+  "author": "Tapabrata Chowdhury",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
