@@ -1,0 +1,16 @@
+{
+  "name": "crud-with-db",
+  "version": "1.0.0",
+  "description": "CRUD OPS with DB",
+  "license": "ISC",
+  "author": "Tapabrata Chowdhury",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.1.5"
+  }
+}
