@@ -1,0 +1,9 @@
+let student = [
+    { id: 1, name: "Alice", age: 20, major: "Computer Science" },
+    { id: 2, name: "Bob", age: 22, major: "Mathematics" },
+    { id: 3, name: "Charlie", age: 21, major: "Physics" }
+];
+
+module.exports = {
+    stu: student
+};
