@@ -2,12 +2,13 @@ FROM node
 
 WORKDIR /app
 
-COPY package.json package.json
-COPY package-lock.json package-lock.json
-COPY server.js server.js
-
-# Command Running 
-
+# Copy all the files starts with Package
+COPY package*.json .
 RUN npm install
+
+# Copy all the files
+
+COPY . .
+
 
 CMD [ "node", "server.js" ]
